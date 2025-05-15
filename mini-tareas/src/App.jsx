@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FormularioTarea from "./components/FormularioTarea";
+import FormularioTarea from "./components/formularioTarea";
 import ListaTareas from "./components/ListaTareas";
 
 function App() {
