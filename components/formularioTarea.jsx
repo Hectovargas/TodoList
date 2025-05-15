@@ -17,7 +17,12 @@ function FormularioTarea({ agregarTarea }) {
 
   return (
     <form onSubmit={manejarSubmit}>
-      <input type="text" value={texto} onChange={manejarCambio} />
+      <input
+        type="text"
+        placeholder="Escribe una tarea..."
+        value={texto}
+        onChange={manejarCambio}
+      />
       <button type="submit">Agregar</button>
     </form>
   );
